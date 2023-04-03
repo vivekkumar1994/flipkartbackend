@@ -13,11 +13,10 @@ dotenv.config();
 const app = express();
 
 const PORT = process.env.PORT ||3006 ;
-const username = process.env.DB_USERNAME;
-const password = process.env.DB_PASSWORD;
 
 
-Connection(username,password)
+
+Connection()
 
 
 app.listen(PORT,()=> console.log(`server running on port ${PORT}`))
