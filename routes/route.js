@@ -1,5 +1,5 @@
 import express from  'express';
-import { userSignUp,userLogIn} from '../controller/user-controller.js';
+import { userSignUp,userLogIn,registerdetailx} from '../controller/user-controller.js';
 import { getProducts,getProductById } from '../controller/product-controller.js';
 import { addPaymentGateway,paytmResponse } from '../controller/payment-controller.js';
 

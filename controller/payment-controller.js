@@ -54,7 +54,7 @@ export const paytmResponse = (request, response) => {
                 post_res.on('end', function () {
                     let result = JSON.parse(res);
                     console.log(result);
-                    response.redirect('')
+                    response.redirect('http://localhost:3000/')
                 });
             });
             post_req.write(post_data);
